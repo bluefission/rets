@@ -1,0 +1,33 @@
+{
+    "name": "bluefission/rets",
+    "description": "Simple classes for rets idx management built with troydavisson/PHRETS",
+    "license": "MIT",
+    "keywords": ["idx","rets","real estate"],
+    "authors": [
+        {
+            "name": "Devon Scott",
+            "email": "dscott@bluefission.com",
+            "homepage": "http://bluefission.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.*",
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlueFission\\Rets": "src"
+        },
+        "classmap": [
+           "src/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "BlueFission\\Rets\\Tests": "tests/" 
+        }
+    }
+}
